@@ -1,7 +1,22 @@
 aid: microhealth
 name: Microhealth
-description: Microhealth is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Microhealth is a Y Combinator (S15) digital-health company building digital
+  therapeutics and connected patient-provider networks for people living with
+  rare bleeding disorders such as hemophilia and for sickle cell disease. Its
+  products let patients track, manage, and share their treatment journey while
+  giving clinicians real-time monitoring between visits, and it aggregates
+  anonymized real-world evidence for life-science and pharmaceutical research.
+  Products include Microhealth Bleeding Disorders (patient) and Rare Bleeding
+  Disorders HCP (clinician dashboard), Microhealth SCD and SCD HCP for sickle
+  cell disease, and life-science research tooling. The company validates
+  interventions through clinical studies toward regulatory clearance as
+  Software as a Medical Device (SaMD). Its hemophilia network is reported to
+  cover roughly a third of US patients and providers in the specialty, with
+  pharmaceutical clients including Sanofi, Bayer, Novo Nordisk, Biogen, and
+  Roche. Microhealth is a patient- and clinician-facing application platform
+  and does not currently publish a public developer API, SDKs, or developer
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/microhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,51 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Health
+- Healthcare
+- Digital Therapeutics
+- Hemophilia
+- Bleeding Disorders
+- Sickle Cell Disease
+- Patient Engagement
+- Real World Evidence
+- Software as a Medical Device
+image: https://microhealth.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/microhealth-domain-security.yml
+- type: Website
+  url: https://microhealth.com
+- type: TermsOfService
+  url: https://microhealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://microhealth.com/privacy-notice
+- type: Support
+  url: mailto:hello@microhealth.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
